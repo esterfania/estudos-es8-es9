@@ -10,7 +10,7 @@ document.getElementById('stringPad').innerHTML = nomeCompletoStringPadding;
 
 //padEnd
 
-const nomeCompletoStringPaddingEnd = name.padStart(name.length + lastName.length, lastName);
+const nomeCompletoStringPaddingEnd = name.padStart(name.length + lastName.length+20, lastName);
 
 document.getElementById('stringPadEnd').innerHTML = nomeCompletoStringPaddingEnd;
 

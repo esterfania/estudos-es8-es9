@@ -8,6 +8,4 @@ const cursos = {
 // retorna chave e valor dos objetos em um formato array
 const chaves = Object.entries(cursos);
 
-document.getElementById("cursos").innerHTML = `<ul>
-${chaves.map((nome) => `<li>${nome}</li>`)}
-</ul>`;
+renderList("cursos", chaves);
