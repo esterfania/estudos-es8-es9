@@ -1,5 +1,4 @@
-import { Cliente } from "./Cliente.js";
-
+import { Cliente } from "../Cliente.js";
 export class Conta {
   //   _saldo = 0; atributo privado que funciona a partir da versão 12+ do node, o atributo não é listado
   // _saldo é uma convenção para representar props privadas, porém mesmo assim possibilita a alteração
